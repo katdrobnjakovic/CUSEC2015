@@ -1,9 +1,12 @@
 CUSEC2015::Application.routes.draw do
   
+  
+
+  resources :speakers
+
   root "pages#home"
 
   get "/schedule" => "pages#schedule"
-  get "/speakers" => "pages#speakers"
   get "/venue" => "pages#venue"
   get "schools" => "pages#schools"
   get "/team" => "pages#team"

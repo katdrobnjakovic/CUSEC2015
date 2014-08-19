@@ -5,9 +5,6 @@ class PagesController < ApplicationController
   def schedule
   end
 
-  def speakers
-  end
-
   def venue
   end
 
