@@ -2,6 +2,8 @@ CUSEC2015::Application.routes.draw do
   
   
 
+  resources :teams
+
   resources :speakers
 
   root "pages#home"

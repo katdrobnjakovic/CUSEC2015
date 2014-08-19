@@ -11,11 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140819020247) do
+ActiveRecord::Schema.define(version: 20140819021315) do
 
   create_table "speakers", force: true do |t|
     t.string   "name"
     t.text     "talkDescription"
+    t.string   "photo"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "teams", force: true do |t|
+    t.string   "name"
+    t.string   "title"
+    t.text     "description"
     t.string   "photo"
     t.datetime "created_at"
     t.datetime "updated_at"
