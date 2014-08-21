@@ -1,0 +1,49 @@
+/* Header Styling */
+.header {
+	background: #696B80;
+	color:white;
+}
+ /* Layout Styling */
+body {
+
+	margin: 0; /*default rails padding around boarder*/
+	background: #222222;
+}
+
+.container {
+
+	width:960px;
+	
+	/*margin:0 auto 0 auto; specify all four arguments at once*/
+	margin: 0 auto; /*specify top and bottom and then right and left - allows to center the container*/
+
+	
+}
+/* Navigation Styling */
+.navigation {
+	background: black;
+	color:white;
+}
+
+.nav-link {
+	display:inline-block;
+	padding:10px 15px;
+	text-decoration:none;
+	margin-right: 15px;
+	color:white; 
+
+	&:hover {
+		background:#ccc;
+		color:black;
+	}
+
+	&:visited {
+		color:white;
+	}
+
+}
+/*Logo*/
+img {
+	max-width: 100%;
+	height: auto;
+}
