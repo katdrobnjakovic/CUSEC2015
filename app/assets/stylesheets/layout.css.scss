@@ -6,7 +6,7 @@
 }
  /* Layout Styling */
 html, body {
-
+	background: white;
 	background-image: url('crossword.png');
 	margin: 0;
 	min-height: 100%; 
@@ -19,18 +19,29 @@ html, body {
 }
 
 .container {
+	font-family: "Quicksand" ;
+	color: #5D4056;	
+	width:auto;
+	margin-left: 15%; 
+	margin-right: 15%; 
+	h1 {
+		margin-top: 30;
+		text-align: center;
+		padding-top: 5%; 
 
-	width:960px;
-	
-	/*margin:0 auto 0 auto; specify all four arguments at once*/
-	margin: 0 auto; /*specify top and bottom and then right and left - allows to center the container*/
+	}
+
+	p {
+		text-align: center;
+	}
 
 	
 }
 /* Navigation Styling */
 .navigation {
 	background: white;
-	color:#696B80;
+	font-family: "Quicksand" ;
+	color:#5D4056;
 	height: 20%;
 	padding-left: 7%;
 	width: auto;
@@ -53,7 +64,7 @@ html, body {
 	}
 
 	&:visited {
-		color:#5D4056;
+		color:#696B80;
 	}
 
 }
@@ -66,20 +77,6 @@ img {
 /* Content Styling */
 .content {
 
-	background: white;
-	width:auto;
-	margin-left: 15%; 
-	margin-right: 15%; 
-	h1 {
-		margin-top: 30;
-		text-align: center;
-		padding-top: 5%; 
-
-	}
-
-	p {
-		text-align: center;
-	}
 }
 
 /* Footer Styling */
