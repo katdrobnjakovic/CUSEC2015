@@ -5,12 +5,18 @@ class PagesController < ApplicationController
   def schedule
   end
 
+  def resumeupload
+  end
+
   def venue
   end
 
-  def schools
+  def school
   end
 
   def team
+  end
+
+  def login
   end
 end

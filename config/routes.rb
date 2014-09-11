@@ -9,9 +9,11 @@ CUSEC2015::Application.routes.draw do
   root "pages#home"
 
   get "/schedule" => "pages#schedule"
+  get "/resumeuploads" => "pages#resumeupload"
   get "/venue" => "pages#venue"
-  get "schools" => "pages#schools"
-  get "/team" => "pages#team"
+  get "schools" => "pages#school"
+  get "/login" => "pages#login"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
