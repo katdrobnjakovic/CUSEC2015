@@ -7,25 +7,23 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-
 <div class="navigation">
-	<div class ="container" >
-		<%= link_to "Home", root_path, class: "nav-link" %>
-		<%= link_to "Schedule", schedule_path, class: "nav-link" %>
-		<%= link_to "Speakers", speakers_path, class: "nav-link" %>
-		<%= link_to "Resume Upload", resumeuploads_path, class: "nav-link" %>
-		<%= link_to "Venue", venue_path, class: "nav-link" %>
-		<%= link_to "Schools", schools_path, class: "nav-link" %>
-		<%= link_to "Team", teams_path, class: "nav-link" %>
-		<%= link_to "Login", login_path, class: "nav-link" %>
-	</div>
+	
+		<%= link_to "CUSEC '15", root_path, class: "nav-link" %>
+		<%= link_to "SCHEDULE", schedule_path, class: "nav-link" %>
+		<%= link_to "SPEAKERS", speakers_path, class: "nav-link" %>
+		<%= link_to "RESUME UPLOAD", resumeuploads_path, class: "nav-link" %>
+		<%= link_to "VENUE", venue_path, class: "nav-link" %>
+		<%= link_to "SCHOOLS", schools_path, class: "nav-link" %>
+		<%= link_to "TEAM", teams_path, class: "nav-link" %>
+		<%= link_to "LOGIN", login_path, class: "nav-link" %>
+	
 </div>
 
 <div class="content">
-	<div class ="container">
+	
 		<%= yield %>
-	</div>
+	
 </div>
 
 
