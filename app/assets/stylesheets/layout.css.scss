@@ -6,7 +6,8 @@
 }
  /* Layout Styling */
 html, body {
-	background: white;
+
+	background-image: url('crossword.png');
 	margin: 0;
 	min-height: 100%; 
 }
@@ -66,6 +67,9 @@ img {
 .content {
 
 	background: white;
+	width:auto;
+	margin-left: 15%; 
+	margin-right: 15%; 
 	h1 {
 		margin-top: 30;
 		text-align: center;
