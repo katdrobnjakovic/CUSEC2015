@@ -7,7 +7,7 @@
  /* Layout Styling */
 html, body {
 	background: white;
-	background-image: url('crossword.png');
+	background-image: url('gplaypattern_@2X.png');
 	margin: 0;
 	min-height: 100%; 
 }
@@ -36,6 +36,27 @@ html, body {
 	}
 
 	
+}
+
+.tableContainer {
+	max-width: 75%;
+	margin-left: 15%; 
+	margin-right: 15%; 
+
+	th {
+		
+		width: 30%;
+		padding-bottom: 5%; 
+	}
+
+	td {
+		width: 30%;
+		padding: 2.3%; 
+		text-align: center;
+		font-size: 16px;
+	}
+
+
 }
 /* Navigation Styling */
 .navigation {
